@@ -1,0 +1,25 @@
+create main.rs 
+in terminal - rustc main.rs 
+in terminal - ./main
+
+-----------------------------------------------------------------------------------------------------
+// Build the cargo project
+// cargo is a build system and pckg manager for rust (comes built-in unlike other languages)
+
+in terminal - cargo --version // to see the installed cargo version
+in terminal - cargo new hello_cargo // create a cargo project
+
+// Cargo.toml -> config file of the project (same like package.json)
+
+
+in terminal - cd hello_cargo
+in terminal - cargo build
+// this makes:
+     target directory-> debug directory - has the actual executable
+     Cargo.lock(all dependencies)
+     some other stuff
+in terminal - cargo run      
+// some other commands:
+    - cargo --help // to see all the commands
+    - cargo check // checks program for errors
+
